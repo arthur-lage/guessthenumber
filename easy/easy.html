@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe a cor || Easy</title>
+    <link rel="stylesheet" href="easystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body onload="randomColors()">
+
+    <div class="title">
+        <h2>O INCRÍVEL <br> <span id="rgbColor">RGB</span> <br> ADIVINHE A COR!</h2>
+    </div>
+    <nav>
+        <button id="new-colors" onclick="newColors()">Novas Cores</button>
+        <ul>
+            <li><a id="easyLink" href="./easy.html">Easy</a></li>
+            <li><a id="hardLink" href="../hard/hard.html">Hard</a></li>
+        </ul>
+    </nav>
+    <div class="game">
+        <p id="warning">Caso nenhuma das opções funcione, clique em <span>Novas Cores</span>.</p>
+        <div class="buttons">
+            <div class="bt1">
+                <button id="button1" onclick="click1()"></button>
+            </div>
+            <div class="bt2">
+                <button id="button2" onclick="click2()"></button>
+            </div>
+            <div class="bt3">
+                <button id="button3" onclick="click1()"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="easyapp.js"></script>
+</body>
+</html>

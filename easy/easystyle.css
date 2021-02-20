@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.title{
+    background-color: rgb(127, 127, 221);
+    text-align: center;
+    height: 150px;
+
+}
+
+h2{
+    color: white;
+    padding-top: 20px;
+}
+
+h2 span{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: flex;
+    margin: 0px 15px;
+}
+
+ul li a{
+    padding-top: 12.5px;
+}
+
+#easyLink{
+    background-color: rgb(101, 101, 190);
+    color: white;
+    width: 100px;
+    padding-left: 30px;
+}
+
+#hardLink{
+    color: rgb(127, 127, 221);
+    width: 100px;
+    padding-left: 30px;
+    transition: .5s ease;
+}
+
+#hardLink:hover{
+    color: white;
+    background-color: rgb(101, 101, 190);
+}
+
+#new-colors{
+    background: none;
+    border: none;
+    color: rgb(127, 127, 221);
+    height: 45px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    transition: .5s ease;
+    padding: 0px 50px;
+}
+
+#new-colors:hover{
+    color: white;
+    background-color: rgb(101, 101, 190);
+}
+
+.game{
+    background-color: rgb(39, 39, 39);
+    height: 468px;
+}
+
+.game .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.bt1, .bt2, .bt3{
+    margin-top: 50px;
+    margin: 0px 100px;
+    margin-top: 75px;
+}
+
+
+.bt1 button, .bt2 button, .bt3 button{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: black solid 3px;
+    transition: 0.5s ease;
+}
+
+.bt1 button:hover, .bt2 button:hover, .bt3 button:hover{
+    width: 250px;
+    height: 250px;
+}
+
+#warning{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+#warning span{
+    color: rgb(127, 127, 221);
+    font-size: 28px;
+}
